@@ -409,7 +409,7 @@ if (($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['form_number'])) || 
 
         <div class="container">
             <div class="footer__wrp pt-100 pb-100">
-                <div class="footer__item item-big wow fadeInUp">
+                <div class="footer__item item-big wow fadeInUp item-logo">
                     <a href="https://identitek.al" class="logo mb-30">
                         <img src="img/identitek-logo-blue.svg" alt="identiTek">
                     </a>
