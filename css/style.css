@@ -5586,6 +5586,14 @@ input.main-search-input::placeholder {
             align-items: center;
         }
 
+        @media(max-width: 480px) {
+          .contact-info {
+            gap: 10px!important;
+            flex-direction: column!important;
+            align-items: flex-start!important;
+          }
+        }
+
         .contact-item {
             display: flex;
             align-items: center;
