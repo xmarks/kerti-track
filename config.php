@@ -2,9 +2,9 @@
 
 // Database Configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'track');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_NAME', 'kerti_track_db');
+define('DB_USER', 'homestead');
+define('DB_PASS', 'secret');
 
 // API Endpoints
 define('API_TRACKING_ENDPOINT', 'http://localhost:8111/api/v1/evoucher/tracking');
