@@ -142,6 +142,7 @@ if (($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['form_number'])) || 
 <html lang="<?= htmlspecialchars($lang) ?>">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($t['page_title']) ?></title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
