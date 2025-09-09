@@ -5925,6 +5925,12 @@ input.main-search-input::placeholder {
 
         }
 
+        @media(max-width: 768px) {
+          .header {
+            margin-bottom: 0!important;
+          }
+        }
+
 
 
         .header::before {
